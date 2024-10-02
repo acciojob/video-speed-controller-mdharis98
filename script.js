@@ -1,7 +1,7 @@
-const player = document.querySelector(".player");
+const player = document.querySelector(".player__video");
       const video = player.querySelector(".viewer");
       const progress = player.querySelector(".progress");
-      const progressBar = player.querySelector(".progress__filled");
+      const progressBar = player.querySelector(".rewind");
       const toggle = player.querySelector(".toggle");
       const ranges = player.querySelectorAll(".player__slider");
       const skipButtons = player.querySelectorAll("[data-skip]");
